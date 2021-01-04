@@ -20,8 +20,23 @@ int main(int argc, char **argv) {
   float a = atof(argv[1]);
   float b = atof(argv[2]);
   float c = atof(argv[3]);
+  float d;
+  d = (b*b) - 4*a*c;
+  
+  float x1, x2;
+  if ( d >= 0 && a != 0) {
+    x1 = ( (-b) + sqrt(d) ) / (2*a);
+    x2 = ( (-b) - sqrt(d) ) / (2*a);
+    printf("Root value(s) of x = (%f, %f) \n", x1, x2);
+  } else if (a == 0.) {
+    printf("Error, a = 0\n");
+  } else {
+    printf("Root value(s) x have an imaginary component. \n");
+    printf("x = (%.3f%+.3fi, %.3f%+.3fi) \n", -b/(2*a), sqrt(-d)/(2*a), -b/(2*a), -sqrt(-d)/(2*a));
+  }
 
-  printf("Have a Nice Day!\n");
+  printf("Have a Nice Day! (Justin Bonus)\n");
+  printf("\n");
   return 0;
 }
 
