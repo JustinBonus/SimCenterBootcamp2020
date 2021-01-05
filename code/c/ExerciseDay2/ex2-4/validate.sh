@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COMPILER=`type -p gcc`
+## COMPILER=`type -p gcc`
 
 echo \*\*
 

@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 try:
-    df = pd.read_csv('list.csv', header=None)
+    df = pd.read_csv('validate.csv', header=None)
 except:
-    print("Could not find file: 'list.csv'")
+    print("Could not find file: 'validate.csv'")
     sys.exit(-1)
 
 df.plot(x=1, y=3, label="Mohr's circle")

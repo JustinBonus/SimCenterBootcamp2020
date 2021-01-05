@@ -6,7 +6,6 @@
 void StressTransform(double sigx, double sigy, double tau, 
 					double *sigxp, double *sigyp, double *taup, 
 					double theta) {
-
 	double pi = 4.0*atan(1.);
 	double th = theta * pi/180.;
 

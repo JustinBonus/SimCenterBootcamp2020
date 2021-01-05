@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 try:
-    df = pd.read_csv('list.csv', header=None)
+    df = pd.read_csv('list.csv', header=1)
 except:
     print("Could not find file: 'list.csv'")
     sys.exit(-1)
