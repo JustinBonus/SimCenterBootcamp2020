@@ -4,12 +4,11 @@
 //#include "Matrix.h"
 
 int main(int argc, char **argv) {
-
   // create 2 vectors
   Vector a(4);
   Vector b(4);
 
-  std::cerr << "a: "; a.print();
+  std::cout << "a: "; a.print();
 
   //
   // set a = 1, b = 20+i

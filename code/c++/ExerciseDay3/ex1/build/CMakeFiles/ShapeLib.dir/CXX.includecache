@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Circle.cpp
+Circle.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Circle.h
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Circle.h
+ColoredShape.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.cpp
+ColoredShape.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+iostream
+-
+string
+-
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Rectangle.cpp
+Rectangle.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Rectangle.h
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Rectangle.h
+ColoredShape.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Trapezoid.cpp
+Trapezoid.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Trapezoid.h
+
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Trapezoid.h
+ColoredShape.h
+/home/JustinBonus/Bootcamp/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+

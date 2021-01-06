@@ -4,17 +4,18 @@
 
 Vector::Vector(int sz)
 {
-  size = 0;
-  data = 0;
+  size = sz;
+  data = new double[size];
+  for (int i=0; i<size; i++) data[i] = 0;
 }
 
 Vector::~Vector()
 {
-  if (data != 0)
-    ; // do something 
+  if (data !=0) data = 0;
+  delete [] data;
 }
 
-// some methods
+// Some methods
 int 
 Vector::Size(void) const
 {
@@ -31,14 +32,18 @@ Vector::zero(void)
 double 
 Vector::norm(void) const
 {
-  return 0; // more code here
+  double result=0;
+  for (int i=0; i<size; i++){
+    result += data[i] * data[i];
+  }
+  result = sqrt(result);
+  return result;
 }
 
 double 
 Vector::dot(const Vector &other) const
 {
-  double result = 0;
-  
+  double result = 0; 
   if (other.size != size) {
     std::cerr << "Vector::dot ERROR vectors not of same size, returning 0\n";
     return result;
@@ -68,7 +73,6 @@ Vector::operator+(const Vector &other) const
     return result;
   }
 
-  
   for (int i=0; i<size; i++)
     result.data[i] = data[i] + other.data[i];
 
