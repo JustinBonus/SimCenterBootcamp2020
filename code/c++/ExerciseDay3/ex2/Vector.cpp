@@ -11,8 +11,10 @@ Vector::Vector(int sz)
 
 Vector::~Vector()
 {
-  if (data !=0) data = 0;
-  delete [] data;
+  if (data !=0) {
+    delete [] data;
+    data = 0;
+  }
 }
 
 // Some methods
